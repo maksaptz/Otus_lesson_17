@@ -4,8 +4,10 @@ Script started on 2023-09-09 12:41:04+00:00 [TERM="xterm-256color" TTY="/dev/pts
 Заходим на клиент и генерируем rsa ключ
 ###########
 
-[?2004hroot@client:~# [7mssh-keygen -t rsa[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -t rsa
-[?2004lGenerating public/private rsa key pair.
+[?2004hroot@client:~# [7mssh-keygen -t rsa[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -t rsa
+[?2004l
+Generating public/private rsa key pair.
 Enter file in which to save the key (/root/.ssh/id_rsa): 
 /root/.ssh/id_rsa already exists.
 Overwrite (y/n)? y
@@ -34,19 +36,25 @@ The key's randomart image is:
 
 [?2004hroot@client:~# vi /[K.ssh/id_rsa.pub 
 
-[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H".ssh/id_rsa.pub" 1 line, 565 bytes[1;1Hssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD17/SdcpQvMWQ/1yux7nmlMox9Fg87RqNSAXcCZ0jj[2;1HtTFOH1hpTB+ju4YxDOWh9TkERA9egeAaxqbUvw/ZGE+yqv9vVwQvS4q1DvyCay1VOvmSHhChGKXO7eOO[3;1HWcIHCKTOYXt5GMj42MJx/wVuU2jGlYoh012v35EOpanZce0gT8Ic4f8+pl9d0fysXaYkYIqYw0/0Mduu[4;1H03jW56r0H+EEI1WyIJu8FmIKzGSgK0nqMWzE0gHIGpr1WIrmyqMSS+mLZ4Mdt4N6QoxZjwcAD7wM9y33[5;1HURbJ/BVGjFXJQzhE4pwsFdAh4RqEPfOaFXqIvgz564tTfVrk/9YJXF+oaMK4QhEdqAXlWQXzV1qep2YY[6;1HHdGV/XsUeu0EaaLET51uafq3j/6Np+9PIzaKFp7+69VPQnkvAS6gnHErMwezTSbl1qLMwvRfmu//uTuu[7;1HkRXz9QXyrXp23f/naHSG5x0EU/77CMdCU+h8/nfAXxL5F+4dQ/sW0UrCtP4nvb8Bjf6o9UFdk1uUE=  [8;1Hroot@client
-[94m~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hq[?25l[?2004l[>4;m[24;1H[K[24;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H".ssh/id_rsa.pub" 1 line, 565 bytes[1;1Hssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQD17/SdcpQvMWQ/1yux7nmlMox9Fg87RqNSAXcCZ0jj[2;1HtTFOH1hpTB+ju4YxDOWh9TkERA9egeAaxqbUvw/ZGE+yqv9vVwQvS4q1DvyCay1VOvmSHhChGKXO7eOO[3;1HWcIHCKTOYXt5GMj42MJx/wVuU2jGlYoh012v35EOpanZce0gT8Ic4f8+pl9d0fysXaYkYIqYw0/0Mduu[4;1H03jW56r0H+EEI1WyIJu8FmIKzGSgK0nqMWzE0gHIGpr1WIrmyqMSS+mLZ4Mdt4N6QoxZjwcAD7wM9y33[5;1HURbJ/BVGjFXJQzhE4pwsFdAh4RqEPfOaFXqIvgz564tTfVrk/9YJXF+oaMK4QhEdqAXlWQXzV1qep2YY[6;1HHdGV/XsUeu0EaaLET51uafq3j/6Np+9PIzaKFp7+69VPQnkvAS6gnHErMwezTSbl1qLMwvRfmu//uTuu[7;1HkRXz9QXyrXp23f/naHSG5x0EU/77CMdCU+h8/nfAXxL5F+4dQ/sW0UrCtP4nvb8Bjf6o9UFdk1uUE=  [8;1Hroot@client
+[94m~                                                                              [10;1H~                                                                              [11;1H~                                                                              [12;1H~                                                                              [13;1H~                                                                              [14;1H~                                                                              [15;1H~                                                                              [16;1H~                                                                              [17;1H~                                                                              [18;1H~                                                                              [19;1H~                                                                              [20;1H~                                                                              [21;1H~                                                                              [22;1H~                                                                              [23;1H~                                                                              [1;1H[?25h[?25l[m[24;1H[K[24;1H:[?25hq
+[?25l[?2004l[>4;m[24;1H[K[24;1H[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
 
 ###########
 Инициализируем репозиторий и задаем пароль: 1234
 ###########
 
-[?2004hroot@client:~# [7mborg init --encryption=repokey borg@192.168.50.10:Myback[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cborg init --encryption=repokey borg@192.168.50.10:Myback
+[?2004hroot@client:~# [7mborg init --encryption=repokey borg@192.168.50.10:Myback[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cborg init --encryption=repokey borg@192.168.50.10:Myback
 
-[?2004lThe authenticity of host '192.168.50.10 (192.168.50.10)' can't be established.
+[?2004l
+
+The authenticity of host '192.168.50.10 (192.168.50.10)' can't be established.
 ECDSA key fingerprint is SHA256:ZCnPXnSAtrsxiy5hGJ8x0jQGo5297/LtYEBYVEKpM2M.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Remote: Warning: Permanently added '192.168.50.10' (ECDSA) to the list of known hosts.
+Remote: Warning: Permanently added '192.168.50.10' (ECDSA) to the list of known hosts.
+
 Enter new passphrase: 
 Enter same passphrase again: 
 Do you want your passphrase to be displayed for verification? [yN]: y
@@ -70,20 +78,28 @@ Write down the passphrase. Store both at safe place(s).
 Стартуем демоны, и добавляем таймер в автозагрузку
 ###########
 
-[?2004hroot@client:~# [7msystemctl enable borg-backup.timer[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl enable borg-backup.timer
-[?2004lCreated symlink /etc/systemd/system/timers.target.wants/borg-backup.timer → /etc/systemd/system/borg-backup.timer.
+[?2004hroot@client:~# [7msystemctl enable borg-backup.timer[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl enable borg-backup.timer
+[?2004l
+Created symlink /etc/systemd/system/timers.target.wants/borg-backup.timer → /etc/systemd/system/borg-backup.timer.
 [?2004hroot@client:~# [7msystemctl start borg-backup.service[27m
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl start borg-backup.service
-[A
-[?2004l[?2004hroot@client:~# [7msystemctl start borg-backup.timer[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl start borg-backup.timer
+
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl start borg-backup.service
+
+[A
+[?2004l
+[?2004hroot@client:~# [7msystemctl start borg-backup.timer[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl start borg-backup.timer
 
 ###########
 Проверяем бэкап
 ###########
 
-[?2004l[?2004hroot@client:~# borh[Kg list borg@192.168.50.10:Myback
+[?2004l
+[?2004hroot@client:~# borh[Kg list borg@192.168.50.10:Myback
 
-[?2004lEnter passphrase for key ssh://borg@192.168.50.10/./Myback: 
+[?2004l
+Enter passphrase for key ssh://borg@192.168.50.10/./Myback: 
 
 etc-2023-09-09_12:42:45              Sat, 2023-09-09 12:42:45 [2173262965b85b188949b158b84cb9a27193f3d001a68159ef3e6e798335698f]
 
@@ -91,8 +107,11 @@ etc-2023-09-09_12:42:45              Sat, 2023-09-09 12:42:45 [2173262965b85b188
 Смотрим активные таймеры
 ###########
 
-[?2004hroot@client:~# [7msystemctl list-timers --all[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl list-timers --all
-[?2004l[?1h=[0;4mNEXT                       [0m[0;4m LEFT          [0m[0;4m LAST[0m[0;4m PASSED[0m[0;4m UNIT                   [m[7m>[27m
+[?2004hroot@client:~# [7msystemctl list-timers --all[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl list-timers --all
+[?2004l
+[?1h=
+[0;4mNEXT                       [0m[0;4m LEFT          [0m[0;4m LAST[0m[0;4m PASSED[0m[0;4m UNIT                   [m[7m>[27m
 
 Sat 2023-09-09 12:47:44 UTC 3min 38s left  n/a  n/a    borg-backup.timer      [m[7m>[27m
 
@@ -105,25 +124,34 @@ Sun 2023-09-10 06:45:32 UTC 18h left       n/a  n/a    apt-daily-upgrade.timer[
 Mon 2023-09-11 00:21:14 UTC 1 day 11h left n/a  n/a    fstrim.timer           [m[7m>[27m
 [m
 [0;1;39m8 timers listed.[0m[m
-[7mlines 1-11/11 (END)[27m[K[K[K[7mlines 1-11/11 (END)[27m[K[K[K[7mlines 1-11/11 (END)[27m[K[K[?1l>
+[7mlines 1-11/11 (END)[27m[K
+[K
+[K[7mlines 1-11/11 (END)[27m[K
+[K
+[K[7mlines 1-11/11 (END)[27m[K
+[K[?1l>
 
 ###########
 Ждем полчаса
 ###########
 
 [?2004hroot@client:~# date
-[?2004lSat Sep  9 12:44:14 UTC 2023
+[?2004l
+Sat Sep  9 12:44:14 UTC 2023
 ###########
 ###########
 [?2004hroot@client:~# date
-[?2004lSat Sep  9 13:15:10 UTC 2023
+[?2004l
+Sat Sep  9 13:15:10 UTC 2023
 
 ###########
 Снова чекаем таймеры
 ###########
 
 [?2004hroot@client:~# datesystemctl list-timers --all
-[?2004l[?1h=[0;4mNEXT                       [0m[0;4m LEFT          [0m[0;4m LAST                       [0m[0;4m PASSED [m[7m>[27m
+[?2004l
+[?1h=
+[0;4mNEXT                       [0m[0;4m LEFT          [0m[0;4m LAST                       [0m[0;4m PASSED [m[7m>[27m
 Sat 2023-09-09 13:19:36 UTC 4min 21s left  Sat 2023-09-09 13:14:36 UTC 38s ago[m[7m>[27m
 Sat 2023-09-09 19:58:31 UTC 6h left        n/a                         n/a    [m[7m>[27m
 Sun 2023-09-10 00:00:00 UTC 10h left       n/a                         n/a    [m[7m>[27m
@@ -134,20 +162,29 @@ Sun 2023-09-10 12:54:21 UTC 23h left       Sat 2023-09-09 12:54:21 UTC 20min a[
 Mon 2023-09-11 00:21:14 UTC 1 day 11h left n/a                         n/a    [m[7m>[27m
 [m
 [0;1;39m8 timers listed.[0m[m
-[7mlines 1-11/11 (END)[27m[K[K[?1l>[?2004hroot@client:~# systemctl list-timers --all[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdate[Ksystemctl list-timers --all[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[7mlines 1-11/11 (END)[27m[K
+[K[?1l>[?2004hroot@client:~# systemctl list-timers --all
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdate[Ksystemctl list-timers --all
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 
 ###########
 смотрим архивы
 ###########
 
 [Cborg list borg@192.168.50.10:Myback
-[?2004lEnter passphrase for key ssh://borg@192.168.50.10/./Myback: 
+[?2004l
+Enter passphrase for key ssh://borg@192.168.50.10/./Myback: 
 ###########
-И видми что у нас один файл с изменившейся датой. т.к borg brune --keep-daily 1, оставляет только 1 файл за день. Он просто перезаписывал наш архив. Чтобы архивов было навалов в нашем случае требовалось добавить параметр -brune --keep-secondly
+И видми что у нас один файл с изменившейся датой. т.к borg brune --keep-daily 1, оставляет только 1 файл за день. Он просто перезаписывал наш архив. 
+Чтобы архивов было навалов в нашем случае требовалось добавить параметр -brune --keep-secondly
 ###########
 etc-2023-09-09_13:14:36              Sat, 2023-09-09 13:14:37 [1d99e163d5103aee8346e4d56582ac2a605462cd5211fa3a8e58adec4dc36080]
 
-[?2004hroot@client:~# borg list borg@192.168.50.10:Myback[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psystemctl list-timers --all[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdate[Ksystemctl list-timers --all[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cborg list borg@192.168.50.10:Myback[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P
+[?2004hroot@client:~# borg list borg@192.168.50.10:Myback
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Psystemctl list-timers --all
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdate[Ksystemctl list-timers --all
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cborg list borg@192.168.50.10:Myback
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P
 
 ###########
 Приостановим таймер
@@ -157,37 +194,53 @@ systemctl stop borg-backup.timer[C[1P borg-backup.timer
 ###########
 Упс, начайно удалили директорию(
 ###########
-[?2004l[?2004hroot@client:~# rm /etc/apt -R
+[?2004l
+[?2004hroot@client:~# rm /etc/apt -R
 ###########
 Убеждаемся что файлов точно нет
 ###########
-[?2004l[?2004hroot@client:~# ls /etc/apt
-[?2004lls: cannot access '/etc/apt': No such file or directory
+[?2004l
+[?2004hroot@client:~# ls /etc/apt
+[?2004l
+ls: cannot access '/etc/apt': No such file or directory
 ###########
 Не зря же бэк ап делали) восстановим утраченные файлы
 ###########
-[?2004hroot@client:~# [7mborg extract borg@192.168.50.10:Myback::etc-2023-09-09_12:15:09 [27m[7me[27m[7mtc/apt[27m[A[C[C[C[C[C[C[C[Cborg extract borg@192.168.50.10:Myback::etc-2023-09-09_12:15:09 etc/apt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cet[1Pc/apt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc[1P/apt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/[1Papt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/a[1Ppt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/ap[1Pt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/apt[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/apt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Petc/apt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Ptc/apt etc/apt[7metc-2023-09-09_13:14:36[27m etc/apt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc-2023-09-09_13:14:36[C
-[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cet[1Pc/apt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C etc/apt
-[?2004lEnter passphrase for key ssh://borg@192.168.50.10/./Myback: 
+[?2004hroot@client:~# [7mborg extract borg@192.168.50.10:Myback::etc-2023-09-09_12:15:09 [27m[7me[27m[7mtc/apt[27m[A[C[C[C[C[C[C[C[Cborg extract borg@192.168.50.10:Myback::etc-2023-09-09_12:15:09 etc/apt
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cet[1Pc/apt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc[1P/apt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/[1Papt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/a[1Ppt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/ap[1Pt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/apt[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc/apt 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Petc/apt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Petc/apt[1Ptc/apt etc/apt[7metc-2023-09-09_13:14:36[27m etc/apt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cetc-2023-09-09_13:14:36[C
+
+[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cet[1Pc/apt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C etc/apt
+
+[?2004l
+Enter passphrase for key ssh://borg@192.168.50.10/./Myback: 
 [?2004hroot@client:~# ls
-[?2004letc  typescript
+[?2004l
+etc  typescript
 
 ###########
 переносим восстановленные файлы в точку назначения
 ###########
 
-[?2004hroot@client:~# [7mmv ./etc/apt /etc[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ./etc/apt /etc
-[?2004l[?2004hroot@client:~# cd /etc/ap
+[?2004hroot@client:~# [7mmv ./etc/apt /etc[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmv ./etc/apt /etc
+[?2004l
+[?2004hroot@client:~# cd /etc/ap
 apparmor/   apparmor.d/ apt/        
 root@client:~# cd /etc/apt
 ###########
 Убеждаемся что все хорошо
 ###########
-[?2004l[?2004hroot@client:/etc/apt# ls
-[?2004lapt.conf.d   listchanges.conf	 preferences.d	sources.list.d
+[?2004l
+[?2004hroot@client:/etc/apt# ls
+[?2004l
+apt.conf.d   listchanges.conf	 preferences.d	sources.list.d
 auth.conf.d  listchanges.conf.d  sources.list	trusted.gpg.d
 [?2004hroot@client:/etc/apt# exit
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2023-09-09 13:17:20+00:00 [COMMAND_EXIT_CODE="0"]
